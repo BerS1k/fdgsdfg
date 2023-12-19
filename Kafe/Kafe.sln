@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafe", "Kafe\Kafe.csproj", "{058F0E25-1AE2-4C98-AAE1-D85D9F42409F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{058F0E25-1AE2-4C98-AAE1-D85D9F42409F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{058F0E25-1AE2-4C98-AAE1-D85D9F42409F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{058F0E25-1AE2-4C98-AAE1-D85D9F42409F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{058F0E25-1AE2-4C98-AAE1-D85D9F42409F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9735FE15-7BB1-428E-9647-507522096EED}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+﻿<Page x:Class="Kafe.AdminG"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Kafe"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AdminG">
+
+    <Grid>
+        <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="zakaza" Background="AliceBlue" Content="Просмотр закзов" Width="200" FontSize="17" Margin="5,5,5,5"></Button>
+            <Button x:Name="sotr" Background="AliceBlue" Content="Сотрудники" Width="200" Height="30" FontSize="17" Margin="5,5,5,5"></Button>
+            <Button x:Name="smens" Background="AliceBlue" Content="Смены" Width="200" Height="30" FontSize="17" Margin="5,5,5,5"></Button>
+            <Button x:Name="dob_sot" Background="AliceBlue" Content="Добавление сотрудника" Width="200" Height="30" FontSize="17" Margin="5,5,5,5" Click="dob_sot_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Page>
